@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>madhur is a good student</h2>
+    <p id="demo"></p>
+    <script>
+        var jsonobject ={name:"Madhur",age:20,address:"Modinagar"}
+        var jsonstr = JSON.stringify(jsonobject);
+        window.open("mad1.html?val="+jsonstr);
+        jsonstr = JSON.stringify(jsonobject.age);
+        var newjobj = JSON.parse(jsonstr);
+        document.write(newjobj+"</br>")
+    </script>
+</body>
+
+</html>

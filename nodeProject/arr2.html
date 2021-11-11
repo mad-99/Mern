@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MERN</title>
+</head>
+
+<body>
+    <h2>create a JSON string from a javaScript object.</h2>
+    <p id="demo"></p>
+    <script>
+        var jsonobj = [{
+            "name": "Madhur",
+            "age": "20",
+            "class": "MCA"
+        },
+        {
+            "name": "Anuj",
+            "age": "21",
+            "class": "MCA2A"
+        },
+        {
+            "name": "Yash",
+            "age": "22",
+            "class": "MCA2C"
+        }
+        ];
+        for (let i = 0; i < jsonobj.length; i++) {
+            document.write(jsonobj[i].name + "</br>");
+        }
+        jsonobj[2].class = jsonobj[0].class + jsonobj[1].class + jsonobj[2].class;
+        document.write(jsonobj[0].name + "</br>");
+        document.write(jsonobj[1].age + " ");
+        document.write(jsonobj[2].class + " ");
+    </script>
+</body>
+
+</html>

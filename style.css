@@ -1,0 +1,24 @@
+body{
+	background-color: skyblue;
+}
+h1{
+	color: red;
+	text-align: center;
+	border: 20px solid orange;
+	margin: 30px;
+	border-radius: 25px;
+	padding: 25px;
+}
+div{
+	color:  blueviolet;
+	padding: 25px;
+	margin: 30px;
+}
+p{
+	color: bisque;
+	text-align: center;
+	border:10px solid black;
+	margin: 30px;
+	border-radius: 25px;
+	padding: 25px;
+}

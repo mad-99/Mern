@@ -1,0 +1,11 @@
+{
+  "name": "nodeproject",
+  "version": "1.0.0",
+  "description": "this is my first mern project @26th Oct 2021 #mentor Ankit Verma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Madhur Maheshwari",
+  "license": "ISC"
+}

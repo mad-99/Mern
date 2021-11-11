@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h2>madhur is a good student</h2>
+    <p id="demo"></p>
+    <script>
+        const mad = '{ "name": "Madhur", "age": 20, "address": "Modinagar" }'
+        const obj = JSON.parse(mad);
+        document.getElementById("demo").innerHTML = obj.name + "," + obj.age+","+obj.address;
+        
+
+    </script>
+</body>
+
+</html>

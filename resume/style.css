@@ -1,0 +1,15 @@
+.h1{
+    background-color: skyblue;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-variant: normal;
+    font-display: swap;
+    margin: 20px;
+    font-size: xx-large;
+}
+.icon{
+    text-align: right;
+    margin: 20px;
+    
+}
